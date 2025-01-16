@@ -22,11 +22,13 @@ The program demonstrates:
 1. Clone the repository:
 
 git clone https://github.com/anshaduk/Tradexa_cuncurrent_insertions.git
+
 cd Tradexa
 
 2. Create a virtual environment and activate it:
 
 python -m venv venv
+
 source venv/bin/activate
 
 3. Install required dependencies:
@@ -38,7 +40,9 @@ pip install -r requirements.txt
 python manage.py makemigrations
 
 python manage.py migrate --database=users_db
+
 python manage.py migrate --database=products_db
+
 python manage.py migrate --database=orders_db
 
 5. Run the simulation:
